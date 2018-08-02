@@ -38,7 +38,7 @@ int WINAPI WinMain(_In_ HINSTANCE hInstance,
 		hInstance, nullptr);
 	if (hWnd==nullptr)
 	{
-		MessageBox(nullptr,TEXT("窗口创建失败"),nullptr,MB_OK);
+		MessageBox(nullptr,TEXT("窗口创建失败"),nullptr,MB_OKCANCEL);
 		return 0;
 	}
 	//显示窗口
